@@ -51,7 +51,7 @@ until valid_move(board, index)
   puts"-----------"
   puts"   |   |   "
   input= gets.chomp
-
+end
 if valid_move?(board, index)
   move(board, index, "0")
 end
