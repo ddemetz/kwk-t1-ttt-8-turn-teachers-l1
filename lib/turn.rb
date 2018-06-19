@@ -37,7 +37,6 @@ def turn (board)
   index = gets.chomp
 end
 
-input_to_index(input)
 
 
 
