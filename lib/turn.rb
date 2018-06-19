@@ -38,7 +38,3 @@ def turn (board)
 end
 
 
-input_to_index(input)
-
-
-
