@@ -41,22 +41,22 @@ def turn (board)
   puts"   |   |   "
   input= gets.chomp
 
-index=input_to_index(input)
+  index=input_to_index(input)
 
-until valid_move(board, index)
- puts "Please enter 1-9:"
-  puts"   |   |   "
-  puts"-----------"
-  puts"   |   |   "
-  puts"-----------"
-  puts"   |   |   "
-  input= gets.chomp
-end
-if valid_move?(board, index)
-  move(board, index, "0")
-end
+  until valid_move(board, index)
+    puts "Please enter 1-9:"
+    puts"   |   |   "
+    puts"-----------"
+    puts"   |   |   "
+    puts"-----------"
+    puts"   |   |   "
+    input= gets.chomp
+  end
+  if valid_move?(board, index)
+    move(board, index, "0")
+  end
 
-display_board(board)
+   display_board(board)
 end
 
 
