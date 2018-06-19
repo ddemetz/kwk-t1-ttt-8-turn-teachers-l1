@@ -34,7 +34,11 @@ end
 
 def turn (board)
   puts "Please enter 1-9:"
-  
+  puts"   |   |   "
+  puts"-----------"
+  puts"   |   |   "
+  puts"-----------"
+  puts"   |   |   "
 index = gets.chomp
 end
 
