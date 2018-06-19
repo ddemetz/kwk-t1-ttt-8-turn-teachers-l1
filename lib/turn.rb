@@ -43,6 +43,15 @@ def turn (board)
 
 index=input_to_index(input)
 
+until valid_move(board, index)
+ puts "Please enter 1-9:"
+  puts"   |   |   "
+  puts"-----------"
+  puts"   |   |   "
+  puts"-----------"
+  puts"   |   |   "
+  input= gets.chomp
+
 if valid_move?(board, index)
   move(board, index, "0")
 end
